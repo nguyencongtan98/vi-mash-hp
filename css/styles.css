@@ -212,6 +212,10 @@
   border-bottom: 1px solid #65b6d6;
 }
 
+#recruitment .recruitment__content__container{
+  margin-top: 20px;
+}
+
 #recruitment .recruitment__content {
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.2);
