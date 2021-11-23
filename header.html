@@ -1,0 +1,45 @@
+<div class="header" id="header">
+  <img
+    onclick="openTabMenu2()"
+    src="/images/logo.png"
+    class="header__logo"
+    alt=""
+  />
+  <div class="header__menu">
+    <ul>
+      <li>
+        <a
+          onclick="openTabMenu(event,'home')"
+          class="tablink menu-active"
+          href="#home"
+          id="home-page"
+          >Home</a
+        >
+      </li>
+      <li>
+        <a onclick="openTabMenu(event,'about')" class="tablink" href="#about"
+          >About Us</a
+        >
+      </li>
+      <li>
+        <a
+          onclick="openTabMenu(event,'service')"
+          class="tablink"
+          href="#services"
+          >Services</a
+        >
+      </li>
+      <li>
+        <a
+          onclick="openTabMenu(event,'recruitment')"
+          class="tablink"
+          href="#recruitment"
+          >Recruitment</a
+        >
+      </li>
+    </ul>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="toggleMenu()" onun>
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
